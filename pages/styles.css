@@ -1,0 +1,134 @@
+* {
+  font-family: "Trade Gothic";
+}
+body {
+  background: rgba(128, 128, 128, 0.202) !important;
+}
+
+.my-banner-area a {
+  background-image: -webkit-linear-gradient(0deg, #00000066 0%, #6f4843c9 100%);
+  font-size: 18px;
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-right: 5px;
+  text-decoration: none !important;
+}
+.my-banner-area a .fa {
+  background: #fff;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  color: #4a4962;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 4px;
+  margin-left: 15px;
+}
+
+.my-banner-area {
+  background-image: url(/images/coffee-beans-with-props-making-coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-top: 50px;
+}
+
+.my-banner-area h1 {
+  background-color: #4a942529;
+  font-family: "Lato-Light";
+  font-size: 48px;
+  max-width: 500px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.my-banner-area p {
+  max-width: 450px;
+  margin: 20px 0;
+  margin-bottom: 40px;
+  background-color: #4a942529;
+  border-radius: 10px;
+}
+.my-banner-area a {
+  display: inline;
+  padding: 10px 30px;
+  padding-right: 5px;
+}
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-image: -webkit-linear-gradient(0deg, #e6ab5d45 0%, #38323233 100%);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 20px;
+  padding: 20px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.Offer {
+  display: inline-block;
+  position: relative;
+  padding-left: 500px;
+}
+
+.Offer::after {
+  content: "a 20% service fee will be added to all checks! ";
+  position: absolute;
+  right: 0;
+  background-image: -webkit-linear-gradient(0deg, #8bc34a 0%, #4caf50 100%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.card-title {
+  background-image: -webkit-linear-gradient(0deg, #e6ab5d45 0%, #38323233 100%);
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.my-3  {
+  background-color: #4a942529;
+  border-radius: 2px;
+}
+.fixed-bottom {
+  position: relative!important;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
+.img-fluid {
+  height: 100%!important;
+}
+.gmc {
+  color: red;
+}
+
